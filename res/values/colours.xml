@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>	
+    <!--++++++++++++-->
+	<!-- Colors     -->
+	<!--++++++++++++-->
+	<color name="color.title">#6f6f6f</color>
+	<color name="color.value">#333333</color>
+	<color name="color.valueLight">#9a9a9a</color>
+	<color name="color.valueOld">#018dc8</color>
+	<color name="color.text">#000000</color>
+	<color name="color.textOnBackground">#6D6C6B</color>
+	<color name="color.values">#0099e9</color>
+	<color name="color.alert">#FF0000</color>
+	<color name="color.tab.textSelected">#FFFFFF</color>
+	<color name="color.tab.textUnselected">#888888</color>
+    <color name="color.bg.facebook">#FF3B5998</color>
+    <color name="color.bg.linkedin">#FF5CA7CC</color>
+    <color name="color.border">#9d9d9d</color>
+    <color name="color.borderSeparator">#dddddd</color>
+    	
+    <color name="White">#FFF</color>
+    <color name="Black">#000</color>
+    <color name="Grey">#7F7F7F</color>
+    <color name="Red">#F00</color>
+    <color name="DarkGrey">#4F4F4F</color>
+    <color name="TransparentGrey">#7F000000</color>	
+</resources>

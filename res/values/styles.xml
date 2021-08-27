@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- =========================== [Application theme] ================================================ -->
+    
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+	<!-- =========================== [Area styles] ================================================ -->    
+	
+	<style name="AreaStyled">
+		<item name="android:background">@drawable/shape_roundedshadow</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_margin">8dp</item>
+		<item name="android:gravity">center_horizontal</item>
+		<!-- item name="android:layout_weight">1</item -->
+		<item name="android:paddingTop">8dp</item>
+		<item name="android:paddingBottom">8dp</item>
+	</style>
+	
+	<style name="AreaCheckBox">
+		<item name="android:background">@android:drawable/list_selector_background</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingLeft">4dp</item>
+		<item name="android:paddingRight">4dp</item>
+		<item name="android:clickable">true</item>
+		<item name="android:gravity">center</item>
+	</style>	
+	
+	<style name="AreaClickable">
+		<item name="android:background">@android:drawable/list_selector_background</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingLeft">8dp</item>
+		<item name="android:paddingRight">8dp</item>
+		<item name="android:clickable">true</item>
+		<item name="android:gravity">center</item>
+	</style>	
+	    
+    <!-- =========================== [Component styles] ================================================ -->
+    
+    <style name="AppListIcon">
+		<item name="android:layout_width">22dp</item>
+		<item name="android:layout_height">22dp</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:layout_marginLeft">4dp</item>
+		<item name="android:layout_marginRight">8dp</item>
+	</style>
+	
+	<style name="AppCheckbox">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#018dc8</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">16dp</item>
+	</style>
+	
+	<style name="AppArrow">
+		<item name="android:src">@drawable/arrow</item>
+		<item name="android:layout_width">9dp</item>
+		<item name="android:layout_height">24dp</item>
+		<item name="android:layout_margin">8dp</item>
+		<item name="android:layout_gravity">center_vertical</item>
+	</style>
+		
+    <!-- =========================== [Text styles] ================================================ -->
+    
+    <style name="AppTitle" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#018dc8</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">16dip</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+	
+    <style name="AppCategoryTitle" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:textColor">@color/color.textOnBackground</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">16dp</item>
+		<item name="android:paddingBottom">4dp</item>
+		<item name="android:shadowColor">@color/White</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">1</item>
+	</style>
+	
+    <style name="AppValueTitle" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#018dc8</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">14dp</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+	    
+	<style name="AppText" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/Black</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textSize">14dp</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:marqueeRepeatLimit">marquee_forever</item>
+		<item name="android:scrollHorizontally">true</item>
+	</style>
+	    
+    <!-- =========================== [Button styles] ================================================ -->
+		
+	<style name="AppButton">
+	    <!-- paddingLeft=32dp paddingRight=32dp -->
+		<item name="android:textSize">15dp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginTop">10dp</item>
+		<item name="android:layout_marginLeft">40dp</item>
+		<item name="android:layout_marginRight">40dp</item>
+		<item name="android:layout_marginBottom">20dp</item>
+		<item name="android:background">@drawable/button_rounded</item>
+	</style>	
+</resources>

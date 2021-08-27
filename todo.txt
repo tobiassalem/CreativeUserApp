@@ -1,0 +1,39 @@
+
+TODO CreativeUserApp
+=====================
+
+0) Setup environment and confirm everything is working.
+
+1) Create application framework (rough draft) and confirm application is starting and showing.
+
+2) Design and implement data model.
+-create SQLite database and confirm it is working
+-considerations on datatypes and the limitations of SQLite (no DATE column type for timestamp, use integer?)
+-should we have referential integrity between user and session?
+
+3) Design and implement user views and flow.
+-login view, list sessions view
+-should we register on the fly or have a separate register view?
+
+4) Design and implement authentication
+-should we store password in clear text or hash it? possibly even salt it.
+-should we check if user exist and inform thusly, or simply say "password incorrect" as is most often the case
+-log user session in db upon successful login or every login attempt?
+
+5) Design and implement bonus features if there is time
+-calculate and inform user of password strength upon user creation
+-restore password feature
+-lock user after X consecutive failed login attempts
+-superuser who can view and edit locked users
+-gesture authentication instead of password (probably outside the scope of this project)
+-settings view, with settings for the number of last sessions which should be displayed
+
+6) Implement localization for applicable languages (English and Swedish for the first version).
+
+7) Tweak design and graphical elements if there is time.
+
+
+Continuously
+-------------
+*Cleanup and optimize code
+*Test application on emulator and physical device

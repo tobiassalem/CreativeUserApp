@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settingsGeneral"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- ================================= [GENERAL SETTINGS] ========================================= -->
+
+    <LinearLayout style="@style/AreaStyled" >
+                        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" >
+
+            <TextView
+                style="@style/AppTitle"
+                android:text="@string/Settings.userId" />
+
+            <TextView
+                android:id="@+id/settingsUserid"
+                android:textIsSelectable="true"
+                style="@style/AppText" />
+        </LinearLayout>
+        
+        <include layout="@layout/hr" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" >
+
+            <TextView
+                style="@style/AppTitle"
+                android:text="@string/Settings.userName" />
+
+            <TextView
+                android:id="@+id/settingsUserName"
+                android:textIsSelectable="true"
+                style="@style/AppText" />
+        </LinearLayout>
+                
+        <include layout="@layout/hr" />
+        
+        <LinearLayout
+            style="@style/AreaCheckBox" >	    
+			<CheckBox
+				android:id="@+id/userNameMemory"
+				style="@style/AppCheckbox"
+				android:text="@string/Settings.userNameMemory" />
+	
+			<include
+				android:id="@+id/enhancedSearchDivider"
+				layout="@layout/hr" />
+	
+		</LinearLayout>
+
+       	<include layout="@layout/hr" />
+        
+		<LinearLayout
+			android:id="@+id/listSizeButton"
+			style="@style/AreaClickable" >
+
+			<LinearLayout
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="vertical" >
+
+				<TextView
+					style="@style/AppTitle"
+					android:text="@string/Settings.listSize" />
+
+				<TextView
+					android:id="@+id/sessionListSize"
+					android:gravity="center_vertical"
+					android:textIsSelectable="true"
+					style="@style/AppText" />
+				
+			</LinearLayout>
+			
+			<ImageView style="@style/AppArrow" android:contentDescription="@string/app_name"/>
+
+		</LinearLayout>
+		        
+	</LinearLayout>    
+
+     <Button
+         android:id="@+id/returnButton"
+         style="@style/AppButton"
+         android:text="@string/action_return" />
+     
+</LinearLayout>

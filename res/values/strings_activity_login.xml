@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- ========================== [Strings for login and registering] ================================================== -->
+    
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_confirm">Password again</string>
+    <string name="prompt_phone">Phone</string>
+    
+   	<string name="action_goto_register"><b>Register</b></string>
+    <string name="action_register">Register and sign in</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_sign_in"><b>Sign in</b></string>
+    <string name="action_sign_out"><b>Sign out</b></string>
+    <string name="action_settings"><b>Settings</b></string>
+	<string name="action_return"><b>Return</b></string>
+    
+    <string name="menu_forgot_password">Recover lost password</string>
+    <string name="progress_signing_in">Signing in&#8230;</string>
+    <string name="progress_signing_out">Signing out&#8230;</string>
+    <string name="progress_registering">Registering&#8230;</string>
+    
+    <string name="error_user_invalid">This user does not exist, please register</string>
+    <string name="error_email_invalid">This email address is invalid</string>
+    <string name="error_email_exists">This email already exists</string>
+    
+    <string name="error_password_invalid">This password is too short</string>
+    <string name="error_password_incorrect">This password is incorrect</string>
+    <string name="error_password_confirm">The passwords must match</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_online_required">This view requires you to be authenticated</string>
+
+</resources>
